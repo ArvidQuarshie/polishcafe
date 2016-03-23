@@ -1,3 +1,4 @@
 # polishcafe
 polishcafe
-this is a fast foodwebstie 
+
+a cafe that offers fast food
