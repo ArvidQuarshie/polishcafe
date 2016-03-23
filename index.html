@@ -12,44 +12,48 @@
 			margin:0 auto;
 			border:2px solid #ccc;
 			background-color:#6D0808;
-		
+		   height:1200px;
 		}
 		#header{
-		height:100px;
+		min-height:100px;
 			background-color:#977658;
+			width:1000px;
 			display: block;
     margin-left: auto;
     margin-right: auto
+		margin top:3%;
 			
 		}
 		#nav{
 		height:50px;
 			background-color:#660033;
-			width:1500px;
+			width:1000px;
 		}
-		#content{
-	
-		}
+		
 
 		#footer{
 		height:250px;
-			background-color:#977658;
-			
+			background-color::#977658;
+			margin-top:3%;
+			width:1000px;
+			height:200px;
 		}
 			/* left column div tag*/
 		#left{
 		width :350px;
 			background-color:#6D0808;
-				min-height:750px;
+				min-height:1000px;
 			float:left;
 		}
 		#right{
-		width:1000px;
-			min-height:400px;	
+		width:650px;
+			min-height:1000px;	
 		float:right;
 		background-color:#6D0808;
 		}
-		#menu{
+		#header #footer #wrapper{
+			margin-left:10%;
+			margin-left:10%;
 		
 		
 		
@@ -90,9 +94,9 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div id="wrapper">  </div>
+	<div id="wrapper">  
 	<div id="header">
-		<p><img src="images/deparis.jpeg" width="400px" height="100px" align ="center">
+		<p align ="center"><img src="images/deparis.jpeg" width="400px" height="100px" align ="center">
   
 	</div>
 	<div id="nav" class="tooltip">
@@ -120,22 +124,22 @@
 	
 	</div>
 	<!--these are the div tags -->
-	<div id="content">
+	
 		
 	
 		<div id="right"> 
 		<!--these are images that were added-->
-			<img src="images/burger1.jpeg" width="400px">
-			<img src="images/burger2.jpeg" width="400px">
+			<img src="images/burger1.jpeg" width="300px">
+			<img src="images/burger2.jpeg" width="300px">
 			<img src="images/menu.jpg" height="400px" width="500px">
 			<img src="images/satisfaction.jpeg" width="400px" height="250px">
-				<p><a href="http://gifgifs.com/" title="gifgifs.com"><img src="http://gifgifs.com//animations/food-drinks/main-dishes/Lasagna.gif" border=0 alt="gifgifs.com" /></a><br/><a href="http://gifgifs.com/"></a><p><h2>Pizzas and lazagnas </h2>
-					<a href="http://gifgifs.com/" title="gifgifs.com"><img src="http://gifgifs.com//animations/food-drinks/hot-beverages/Coffee_poured_2.gif" border=0 alt="gifgifs.com" /></a><br/><a href="http://gifgifs.com/"></a><p><h2>Coffee and hotdogs </h2>
-			      <img src="images/hotdog.gif" width="200px" height="150px">
+				<p><a href="http://gifgifs.com/" title="gifgifs.com"><img src="http://gifgifs.com//animations/food-drinks/main-dishes/Lasagna.gif" border=0 alt="gifgifs.com" /></a><br/><a href="http://gifgifs.com/"></a><p><h2>Pizzas and lazagnas also available </h2>
+					
+			   
 		</div>
 				
 							
-		</div>
+	
 		<div id="left"> 
 					<!--these are links to the  google maps link-->
 		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:350px;'><div id='gmap_canvas' style='height:400px;width:350px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://embedmaps.org/'>embedded google map</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=5710b41b06a59b62a63d4b7841ef188ac07e5eed'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(52.2296756,21.012228700000037),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(52.2296756,21.012228700000037)});infowindow = new google.maps.InfoWindow({content:'<strong>cafedeparis</strong><br><br> warsaw<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
@@ -152,11 +156,11 @@
 		<div class="clear"></div>	
 	</div>
 	
-	<div id="footer">
-	<p><img src="images/wifi.png" width="400px" height="250px">
-<img src="images/footer.jpeg" width="600px" height="250px">
+		<div id="footer">                                    <h1> <p align="center">CAFEdePARIS</h1>
+
+
 	</div>
 
-
+</div>
 </body>
 </html>
